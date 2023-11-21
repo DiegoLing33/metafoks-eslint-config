@@ -104,7 +104,6 @@ export = {
 
         // https://github.com/mobxjs/mobx/blob/main/packages/eslint-plugin-mobx/README.md
         'mobx/exhaustive-make-observable': 'warn',
-        // 'mobx/missing-make-observable': 'error',
         'mobx/unconditional-make-observable': 'error',
         'mobx/missing-observer': 'off',
 
