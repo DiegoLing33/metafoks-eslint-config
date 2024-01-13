@@ -1,7 +1,6 @@
 {
-  "name": "@redeco-platform/eslint-config",
+  "name": "@metafoks/eslint-config",
   "scripts": {
-    "artifactregistry-login": "npx google-artifactregistry-auth",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.(js|ts)\"",
     "lint": "eslint src --ext .js,.ts",
@@ -17,7 +16,7 @@
     "eslint-plugin-mobx": "^0.0.9"
   },
   "devDependencies": {
-    "@redeco-platform/prettier": "^1.0.1",
+    "@metafoks/prettier": "^1.0.0",
     "eslint-plugin-prettier": "^5.0.1",
     "typescript": "4.9.5"
   },
@@ -28,9 +27,9 @@
   "files": [
     "lib"
   ],
-  "version": "1.0.2",
+  "version": "1.0.0",
   "publishConfig": {
     "access": "public"
   },
-  "prettier": "@redeco-platform/prettier"
+  "prettier": "@metafoks/prettier"
 }
