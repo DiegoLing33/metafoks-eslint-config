@@ -4,7 +4,7 @@
 {
   "eslintConfig": {
     "extends": [
-      "@redeco-platform/eslint-config"
+      "@metafoks/eslint-config"
     ]
   }
 }
